@@ -1,0 +1,14 @@
+[project]
+name = "sphinx-liveserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+sphinx-liveserver = "sphinx_liveserver:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
